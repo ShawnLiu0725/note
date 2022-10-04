@@ -1,0 +1,19 @@
+.tablebox {
+  border: 5px solid #282923;
+  color: rgba(255, 255, 255, 0.7);
+  width: 1000px;
+  margin: 0 auto; }
+
+.thead {
+  background-color: #282923;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 5px 0; }
+
+.thead > h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold; }
+
+.tbody {
+  padding: 5px;
+  font-size: 18px; }

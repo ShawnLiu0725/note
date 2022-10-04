@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+@font-face {
+  font-family: 'AbelRegular';
+  src: url("/fonts/abel-regular-webfont.eot");
+  src: url("/fonts/abel-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/abel-regular-webfont.woff") format("woff"), url("/fonts/abel-regular-webfont.ttf") format("truetype"), url("/fonts/abel-regular-webfont.svg#AbelRegular") format("svg"); }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 700; }
+
+.pageset {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1980px; }
+
+@media (min-width: 1980px) {
+  .pageset {
+    border-left: 1px solid #a6e22c;
+    border-right: 1px solid #a6e22c; } }
