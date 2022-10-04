@@ -5,45 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Code</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/other.css">
-    <style>
-        html,body{
-            background-color: #8E8E8E;
-        }
-        body{
-            height: 100%;
-            position: relative;
-        }
-        .main{
-            padding: 10px;
-            color: #282923;
-            display: flex;
-            flex-direction: column;
-            margin-left:300px ;
-        }
-    </style>
+    @@include('include/head.html')
 </head>
 <body>
-    <div class="slide_menu">
-        <form action="">
-            <input type="surch">
-            <button></button>
-        </form>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="htmlnote.html">HTML Note</a></li>
-            <li><a href="csscode.html">CSS code</a></li>
-            <li><span>JavaScript</span>
-                <ul>
-                    <li><a href="javascriptcode.html" style="border: none;">JavaScript Note</a></li>
-                    <li><a href="jsprint.html">JavaScript Print</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    @@include('include/nav.html')
     <section class="main">
         <h1 style="text-align: center;">Javascript Note</h1>
         <div class="tablebox">
@@ -71,7 +36,7 @@
                     ex.<br>
                     var my_name = "Shawn";<br>
                     document.write(my_name);<br>
-                    document.write("</ br>");<br>
+                    document.write("<span><</span> /<span>b</span>r <span>></span>");<br>
                     var my_age = 20;<br>
                     document.write(my_age);<br>
                     document.write("</ br>");<br>

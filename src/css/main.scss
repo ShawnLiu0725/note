@@ -1,0 +1,53 @@
+@import "partials/_nav";
+
+body{
+    position: relative;
+    height: 100%;
+    background-color: 	#272727;
+}
+
+.main{
+    padding: 10px;
+    color: #282923;
+    display: flex;
+    flex-direction: column;
+    margin-left:300px ;
+    background-color: #8E8E8E;
+    height: 100%;
+    box-sizing: border-box;
+
+    .title{
+        text-align: center;
+    }
+
+    .word{
+        margin: 0 50px ;
+
+        h2{
+            font-size: 28px;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+            border-bottom:5px dashed #282923;
+        }
+
+        p,ul{
+            font-size: 20px;
+            margin-bottom: 100px;
+        }
+
+        ul{
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 35px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #282923;
+                    &:hover{
+                        border-bottom: 3px solid #282923;
+                    }
+                }
+            }
+        }
+    }
+}
