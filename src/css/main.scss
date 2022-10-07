@@ -15,26 +15,21 @@ body{
     background-color: #8E8E8E;
     height: 100%;
     box-sizing: border-box;
-
     .title{
         text-align: center;
     }
-
     .word{
         margin: 0 50px ;
-
         h2{
             font-size: 28px;
             padding-bottom: 8px;
             margin-bottom: 8px;
             border-bottom:5px dashed #282923;
         }
-
-        p,ul{
+        p,ul,ol{
             font-size: 20px;
             margin-bottom: 100px;
         }
-
         ul{
             list-style-type: disc;
             margin-left: 20px;
@@ -49,5 +44,60 @@ body{
                 }
             }
         }
+        ol{
+            list-style-type: decimal;
+            margin-left: 20px;
+            line-height: 35px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #282923;
+                    &:hover{
+                        border-bottom: 3px solid #282923;
+                    }
+                }
+            }
+            h3{
+                font-size: 18px;
+            }
+            .box{
+                margin: auto;
+                display: flex;
+                font-size: 17px;
+                min-width: 825px;
+                .box1{
+                    flex-basis: 50%;
+                    text-align: center;
+                    display: flex;
+                    span{
+                        margin: auto;
+                    }
+                }
+                .box2{
+                    flex-basis: 50%;
+                    text-align: left;
+                    padding: 0 10px;
+                }
+            }
+            .boxborder{
+                .box1{
+                    border-bottom:3px solid #282923;
+                    border-left:3px solid #282923;
+                }
+                .box2{
+                    border: 3px solid #282923;
+                    border-top: none;
+                    
+                }
+            }
+            #tpbox{
+                border-top:3px solid #282923 ;
+                color: #8E8E8E;
+                background-color: #282923;
+            }
+        }
     }
+}
+.marker{
+    color: #800000;
 }

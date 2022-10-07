@@ -145,7 +145,7 @@ body {
       padding-bottom: 8px;
       margin-bottom: 8px;
       border-bottom: 5px dashed #282923; }
-    .main .word p, .main .word ul {
+    .main .word p, .main .word ul, .main .word ol {
       font-size: 20px;
       margin-bottom: 100px; }
     .main .word ul {
@@ -157,3 +157,42 @@ body {
         color: #282923; }
         .main .word ul li a:hover {
           border-bottom: 3px solid #282923; }
+    .main .word ol {
+      list-style-type: decimal;
+      margin-left: 20px;
+      line-height: 35px; }
+      .main .word ol li a {
+        text-decoration: none;
+        color: #282923; }
+        .main .word ol li a:hover {
+          border-bottom: 3px solid #282923; }
+      .main .word ol h3 {
+        font-size: 18px; }
+      .main .word ol .box {
+        margin: auto;
+        display: flex;
+        font-size: 17px;
+        min-width: 825px; }
+        .main .word ol .box .box1 {
+          flex-basis: 50%;
+          text-align: center;
+          display: flex; }
+          .main .word ol .box .box1 span {
+            margin: auto; }
+        .main .word ol .box .box2 {
+          flex-basis: 50%;
+          text-align: left;
+          padding: 0 10px; }
+      .main .word ol .boxborder .box1 {
+        border-bottom: 3px solid #282923;
+        border-left: 3px solid #282923; }
+      .main .word ol .boxborder .box2 {
+        border: 3px solid #282923;
+        border-top: none; }
+      .main .word ol #tpbox {
+        border-top: 3px solid #282923;
+        color: #8E8E8E;
+        background-color: #282923; }
+
+.marker {
+  color: #800000; }

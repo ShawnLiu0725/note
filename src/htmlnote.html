@@ -12,6 +12,130 @@
         @@include('include/nav.html')
         <section class="main">
             <h1 class="title">HTML Note</h1>
+            <div class="word">
+                <div>
+                    <h2>簡述</h2>
+                    <p>HTML 是一種「標示語言」而非程式語言，而網頁瀏覽器 (web browser) 像是常見的 Chrome, IE, Safari, Firefox 懂得知道如何讀取HTML 檔案，並將 HTML中所描述的內容呈現在頁面上。</p>
+                </div>
+                <div>
+                    <h2>結構</h2>
+                    <p>階層樹狀 (巢狀)</p>
+                </div>
+                <div>
+                    <h2>常見標籤</h2>
+                    <ol>
+                        <li><h3>宣告</h3>
+                            <div class="box boxborder" id="tpbox">
+                                <div class="box1"><span>標籤</span></div>
+                                <div class="box2" style="text-align: center;"><span>意義</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>!DOCTYPE html</span>></span></div>
+                                <div class="box2"><span>用來聲明此文件為一份採用HTML5語法標準的文件</span></div>
+                            </div>
+                        </li>
+                        <li><h3>巢狀元素</h3>
+                            <div class="box boxborder" id="tpbox">
+                                <div class="box1"><span>標籤</span></div>
+                                <div class="box2" style="text-align: center;"><span>意義</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>head</span>></span></div>
+                                <div class="box2"><span>用來說明關於該網頁的元資訊</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>title</span>></span></div>
+                                <div class="box2"><span>用來指定該網頁的標題</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>body</span>></span></div>
+                                <div class="box2"><span>標籤中的其他根元素即為顯示在頁面上之內容用來說明關於該網頁的元資訊</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>h</span><span class="marker">n</span>></span></div>
+                                <div class="box2"><span>標籤用來指定標題</span><span class="marker">(n為阿拉伯數字，1即為一級，以此類推)</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>p</span>></span></div>
+                                <div class="box2"><span>用來包含一段文字內容</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>b</span>></span></div>
+                                <div class="box2"><span>用於粗體文字</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>i</span>></span></div>
+                                <div class="box2"><span>用於斜體文字</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>strong</span>></span></div>
+                                <div class="box2"><span>用於強調文字</span><span class="marker">(雖呈現效果與<</span><span class="marker">b>類似，但本質意義不同)</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>div</span>></span></div>
+                                <div class="box2"><span>用於標籤區塊</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>span</span>></span></div>
+                                <div class="box2"><span>用於標籤文字段落</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>ul</span>></span></div>
+                                <div class="box2"><span>用於點狀清單，搭配<</span><span>li>標籤使用，<</span><span>li>意義為「順序」</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>ol</span>></span></div>
+                                <div class="box2"><span>用於數字清單，搭配<</span><span>li>標籤使用，<</span><span>li>意義為「順序」</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>table</span>></span></div>
+                                <div class="box2"><span>標籤用於表格，而<</span><span>tr>為橫列，<</span><span>td>為直行，<</span><span>th>為欄位標題，<</span><span>caption>則為表格之標題</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>form</span>></span></div>
+                                <div class="box2"><span>標籤用於表單，搭配<<span><span>input>及其type改寫變化出不同形式之輸入欄位與使用者進行互動</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>video</span>></span></div>
+                                <div class="box2"><span>用於插入影片</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>a</span>></span></div>
+                                <div class="box2"><span>用於插入超連結</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>iframe</span>></span></div>
+                                <div class="box2"><span>用於內嵌架框(常用於插入YouTube影片時使用)</span></div>
+                            </div>
+                        </li>
+                        <li><h3>空元素</h3>
+                            <div class="box boxborder" id="tpbox">
+                                <div class="box1"><span>標籤</span></div>
+                                <div class="box2" style="text-align: center;"><span>意義</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>br</span>></span></div>
+                                <div class="box2"><span>用於換行(段行)</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>hr</span>></span></div>
+                                <div class="box2"><span>用於水平線</span></div>
+                            </div>
+                            <div class="box boxborder">
+                                <div class="box1"><span><<span>img</span>></span></div>
+                                <div class="box2"><span>用於置入圖片)</span></div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>詳細參考資料</h2>
+                    <ol>
+                        <li><span>參考資料:</span><a href="https://www.fooish.com/html/">Fooish程式技術</a></li>
+                        <li><span>相關影片:</span><a href="https://www.youtube.com/watch?v=CLUPkcLQm64">GrandmaCan【html】</a></li>
+                    </ol>
+                </div>
+            </div>
         </section>
     </div>
 </body>
