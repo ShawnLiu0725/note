@@ -20,5 +20,5 @@ body {
 
 @media (min-width: 1980px) {
   .pageset {
-    border-left: 1px solid #a6e22c;
-    border-right: 1px solid #a6e22c; } }
+    border-left: 3px solid #a6e22c;
+    border-right: 3px solid #a6e22c; } }
